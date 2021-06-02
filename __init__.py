@@ -61,3 +61,6 @@ def delete():
     db.session.delete(book)
     db.session.commit()
     return redirect("/")
+
+def getApp():
+    return app
